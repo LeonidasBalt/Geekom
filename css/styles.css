@@ -1,0 +1,197 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.2rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-header {
+  font-weight: 700;
+}
+
+#title {
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+  height: 700px;
+}
+
+/* Sections */
+
+.colored-section {
+  background: #000046; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #1cb5e0,
+    #000046
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1cb5e0,
+    #000046
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: #f3f9fb;
+}
+
+.white-section {
+  background-color: #d9ecf2;
+}
+/* navigation bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-dark .navbar-brand {
+  font-family: "Righteous", cursive;
+  font-size: 3rem;
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+
+/* download button  */
+
+.btn {
+  margin: 5% 3% 5% 0%;
+}
+
+/* Title image */
+
+.phone-image {
+  height: 900px;
+  width: 480px;
+  transform: rotate(30deg);
+  position: relative;
+  left: 90px;
+  bottom: 150px;
+}
+
+/* features */
+
+.feature-title {
+  font-weight: 700;
+}
+
+#features {
+  padding: 7% 15%;
+  position: relative;
+}
+
+.feature-box {
+  padding: 7%;
+}
+
+.icon {
+  color: #3282b8;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #000046;
+}
+
+/* Testimonial section */
+
+
+.testimonial-text {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  padding-bottom: 20px;
+}
+
+.press-logo {
+  width: 7%;
+  margin: 20px 50px 50px;
+}
+
+/* Pricing section */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* Call to action */
+
+#cta {
+  padding: 7% 15%;
+}
+
+/* Footer section */
+
+#footer {
+  padding: 5% 15%;
+}
+
+.social-icons {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1000px) {
+  #title {
+    text-align: center;
+  }
+
+  .phone-image {
+    position: static;
+    transform: rotate(0);
+  }
+  .container-fluid {
+    height: fit-content;
+  }
+}
