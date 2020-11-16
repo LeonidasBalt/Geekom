@@ -65,6 +65,7 @@ h6 {
 
 .navbar {
   padding: 0 0 4.5rem;
+  z-index: 1;
 }
 
 .navbar-dark .navbar-brand {
@@ -95,7 +96,7 @@ h6 {
   width: 480px;
   transform: rotate(30deg);
   position: relative;
-  left: 90px;
+  left: 30%;
   bottom: 150px;
 }
 
